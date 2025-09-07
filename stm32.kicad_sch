@@ -5636,10 +5636,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3e71976a-a522-4eb6-9c5a-ba9455943b49")
 		(property "Reference" "U2"
-			(at 169.418 67.564 0)
+			(at 166.624 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,7 +5646,7 @@
 			)
 		)
 		(property "Value" "STM32G484CETx"
-			(at 181.356 67.564 0)
+			(at 183.896 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5,143 +5,6 @@
 	(uuid "9a125132-c760-4858-b632-98a5a157f1bc")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x01"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x01_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -284,6 +147,215 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ESC:1706701"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "1706701"
+				(at -2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "1706701:PHOENIX_1706701"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "24.09.2015"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "14.35mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Phoenix Contact"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "1706701_0_0"
+				(rectangle
+					(start -3.81 -5.08)
+					(end 5.08 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -1.905 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 228.6 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b11819d-a675-4112-9d73-04ed18e1f8f8")
+	)
+	(junction
+		(at 228.6 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "761e48fd-5302-4085-bc9c-33caed35cc81")
+	)
+	(junction
+		(at 228.6 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e29aa35a-6f0e-40a7-bb4f-d592fb7f6300")
 	)
 	(wire
 		(pts
@@ -294,6 +366,16 @@
 			(type default)
 		)
 		(uuid "0f14fbd2-d6c0-4413-9d73-aec43566038b")
+	)
+	(wire
+		(pts
+			(xy 228.6 92.71) (xy 228.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6a0d42-c557-4031-8e7d-f8063c75f7b6")
 	)
 	(wire
 		(pts
@@ -314,6 +396,26 @@
 			(type default)
 		)
 		(uuid "13e6ddcb-e668-4ea7-b0a8-31d9a38df40d")
+	)
+	(wire
+		(pts
+			(xy 228.6 90.17) (xy 231.14 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d32b88-e15f-411f-a06b-321f4ed6bde0")
+	)
+	(wire
+		(pts
+			(xy 231.14 92.71) (xy 228.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d467c37-b5ca-46e0-a937-d8b02581d81d")
 	)
 	(wire
 		(pts
@@ -374,6 +476,16 @@
 			(type default)
 		)
 		(uuid "58dd65c2-cb54-4da5-848c-9a03c94f49f0")
+	)
+	(wire
+		(pts
+			(xy 228.6 31.75) (xy 228.6 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6d3af3-27b9-4fb7-b4b3-0d44970b685b")
 	)
 	(wire
 		(pts
@@ -447,6 +559,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 62.23) (xy 228.6 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ea39b5-ac15-42de-a92b-bd2158693138")
+	)
+	(wire
+		(pts
 			(xy 143.51 57.15) (xy 162.56 57.15)
 		)
 		(stroke
@@ -454,6 +576,36 @@
 			(type default)
 		)
 		(uuid "75026db6-b2df-474d-99bf-3b90bd3d526a")
+	)
+	(wire
+		(pts
+			(xy 228.6 29.21) (xy 231.14 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9013e52a-ae81-4ee6-afa1-84fc3f244507")
+	)
+	(wire
+		(pts
+			(xy 228.6 59.69) (xy 231.14 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d4120c-fd9c-4c74-a44c-5f96698f9e3e")
+	)
+	(wire
+		(pts
+			(xy 228.6 62.23) (xy 228.6 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981f8c52-1460-425f-b015-96081f3b5efb")
 	)
 	(wire
 		(pts
@@ -507,7 +659,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 59.69) (xy 233.68 59.69)
+			(xy 200.66 59.69) (xy 228.6 59.69)
 		)
 		(stroke
 			(width 0)
@@ -517,7 +669,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 29.21) (xy 233.68 29.21)
+			(xy 200.66 29.21) (xy 228.6 29.21)
 		)
 		(stroke
 			(width 0)
@@ -547,7 +699,17 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 90.17) (xy 233.68 90.17)
+			(xy 231.14 31.75) (xy 228.6 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c491f528-c753-4864-8b22-3348733f33e2")
+	)
+	(wire
+		(pts
+			(xy 200.66 90.17) (xy 228.6 90.17)
 		)
 		(stroke
 			(width 0)
@@ -748,7 +910,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
+		(lib_id "ESC:1706701")
 		(at 238.76 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -758,7 +920,7 @@
 		(fields_autoplaced yes)
 		(uuid "4dcb8c81-f1e5-49d8-9a66-091c682949ff")
 		(property "Reference" "J3"
-			(at 241.3 58.42 0)
+			(at 245.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -776,12 +938,13 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_236-101_1x01_P5.00mm_45Degree"
+		(property "Footprint" "esc-land-patterns:PHOENIX_1706701"
 			(at 238.76 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -803,8 +966,51 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "PARTREV" "24.09.2015"
+			(at 238.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 238.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.35mm"
+			(at 238.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 238.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_1"
 			(uuid "d70c945f-0f4d-447e-8664-05ad1b5c9875")
+		)
+		(pin "1_2"
+			(uuid "0b862505-8399-4e3c-a88b-6c0e50557e79")
 		)
 		(instances
 			(project "esc"
@@ -816,7 +1022,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
+		(lib_id "ESC:1706701")
 		(at 238.76 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -826,7 +1032,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a2b3786-83f9-4a46-81d2-1080408d8478")
 		(property "Reference" "J4"
-			(at 241.3 88.9 0)
+			(at 245.11 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -844,12 +1050,13 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_236-101_1x01_P5.00mm_45Degree"
+		(property "Footprint" "esc-land-patterns:PHOENIX_1706701"
 			(at 238.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -871,8 +1078,51 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "PARTREV" "24.09.2015"
+			(at 238.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 238.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.35mm"
+			(at 238.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 238.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_1"
 			(uuid "c1879be6-3320-4743-92f9-4d705a6026db")
+		)
+		(pin "1_2"
+			(uuid "604b5f56-7c0f-4cbc-9196-c5629c9f7d0a")
 		)
 		(instances
 			(project "esc"
@@ -884,7 +1134,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
+		(lib_id "ESC:1706701")
 		(at 238.76 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -894,7 +1144,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7de0b87-cd0f-4a14-93a2-c118a641f645")
 		(property "Reference" "J2"
-			(at 241.3 27.94 0)
+			(at 245.11 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,12 +1162,13 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_236-101_1x01_P5.00mm_45Degree"
+		(property "Footprint" "esc-land-patterns:PHOENIX_1706701"
 			(at 238.76 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -939,8 +1190,51 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "PARTREV" "24.09.2015"
+			(at 238.76 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 238.76 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.35mm"
+			(at 238.76 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 238.76 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_2"
 			(uuid "c5e8e78a-eaac-4689-8b7d-b79feceddd89")
+		)
+		(pin "1_1"
+			(uuid "94444d71-04b9-4088-a7b6-54cc9bc54b3a")
 		)
 		(instances
 			(project ""

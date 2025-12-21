@@ -1188,8 +1188,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U3"
-				(at 0 12.7 0)
+			(property "Reference" "U4"
+				(at 0 11.176 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1197,14 +1197,14 @@
 				)
 			)
 			(property "Value" "TVS0500DRV"
-				(at 0 10.16 0)
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "esc-land-patterns:SON65P200X200X80-7N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1234,7 +1234,7 @@
 			(symbol "TVS0500DRV_0_1"
 				(rectangle
 					(start -5.08 7.62)
-					(end 5.08 -5.08)
+					(end 5.08 -8.89)
 					(stroke
 						(width 0)
 						(type default)
@@ -1436,6 +1436,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4423,6 +4441,12 @@
 		(uuid "0901ee0f-3215-496a-9f0d-00fe1ce33003")
 	)
 	(junction
+		(at 116.84 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "354587a1-7bb2-45ab-af7b-d57cb4486ea2")
+	)
+	(junction
 		(at 81.28 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4742,6 +4766,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 114.3) (xy 116.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520029f9-85da-4b10-864e-ba92d88dbbc2")
+	)
+	(wire
+		(pts
 			(xy 162.56 62.23) (xy 132.08 62.23)
 		)
 		(stroke
@@ -4922,6 +4956,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 121.92) (xy 113.03 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f9da5ca-d972-4309-83f3-90f0bb5ea34f")
+	)
+	(wire
+		(pts
 			(xy 81.28 121.92) (xy 81.28 127)
 		)
 		(stroke
@@ -4982,6 +5026,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 121.92) (xy 113.03 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7580f24-48f7-422e-b91d-f8c3f2b72def")
+	)
+	(wire
+		(pts
 			(xy 91.44 101.6) (xy 78.74 101.6)
 		)
 		(stroke
@@ -5032,7 +5086,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 113.03) (xy 116.84 115.57)
+			(xy 116.84 113.03) (xy 116.84 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5139,6 +5193,16 @@
 			(type default)
 		)
 		(uuid "f61158e7-c245-47c0-a921-cd55098c65d6")
+	)
+	(wire
+		(pts
+			(xy 116.84 114.3) (xy 116.84 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92035fc-1b9a-4fd8-b4f8-4f6553dff4a2")
 	)
 	(label "ENC_B"
 		(at 213.36 81.28 180)
@@ -5485,6 +5549,9 @@
 		)
 		(pin "4"
 			(uuid "1ccb3290-482b-4b5e-8c96-99f5f57babf1")
+		)
+		(pin "7"
+			(uuid "b0d9e2fc-ac9a-4cdf-8ffb-6ca833dc424d")
 		)
 		(instances
 			(project "esc"

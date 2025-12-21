@@ -11,10 +11,10 @@ for footprint in board.GetFootprints():
         continue
     
     for text in footprint.GraphicalItems():
-        if isinstance(text, pcbnew.FP_TEXT):
+        if isinstance(text, pcbnew.PCB_TEXT):
             size = text.GetTextSize()
             size.x = pcbnew.FromMM(new_height_mm)
             size.y = pcbnew.FromMM(new_width_mm)
             text.SetTextSize(size)
 pcbnew.Refresh()
-print("Silkscreen updated")   
+print("Silkscreen updated")
